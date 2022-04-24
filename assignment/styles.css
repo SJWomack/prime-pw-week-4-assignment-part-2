@@ -1,25 +1,36 @@
 html {
-   background-color: black; 
+    background-color: black;
 }
 
 body {
     background-color: greenyellow;
+    height: 90vh;
 }
 
 header {
     background-color: grey;
 }
 
+.meat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
 .info {
     background-color: silver;
     text-decoration: black;
+    text-align: center;
 }
 
 img {
-    height: 500px;
+    width: 500px;
+
 }
 
-h3{
+h3 {
     background-color: silver;
     text-decoration: black;
+    text-align: center;
 }
